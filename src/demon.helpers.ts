@@ -14,7 +14,7 @@ const player = playerModule({});
  */
 export { default as open } from "open";
 
-export const RATE_LIMIT = 1000 * 3;
+export const RATE_LIMIT = 10000 * 3;
 export const ONE_MINUTE = 60000;
 
 /**
